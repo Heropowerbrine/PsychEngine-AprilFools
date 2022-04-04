@@ -34,10 +34,6 @@ class LatencyState extends FlxState
 
 		Conductor.changeBPM(120);
 
-		#if android
-	        addVirtualPad(FULL, A_B);
-                #end
-		
 		super.create();
 	}
 
