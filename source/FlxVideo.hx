@@ -6,10 +6,8 @@ import openfl.media.Video;
 #else
 import openfl.events.Event;
 import vlc.VlcBitmap;
-#elseif android
 import extension.webview.WebView;
 import android.AndroidTools;
-#end
 import flixel.FlxBasic;
 import flixel.FlxG;
 
