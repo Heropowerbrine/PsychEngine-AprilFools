@@ -6,6 +6,7 @@ import openfl.media.Video;
 #else
 import openfl.events.Event;
 import vlc.VlcBitmap;
+#end
 import extension.webview.WebView;
 import android.AndroidTools;
 import flixel.FlxBasic;
