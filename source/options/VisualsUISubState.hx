@@ -109,6 +109,10 @@ class VisualsUISubState extends BaseOptionsMenu
 		option.onChange = onChangePauseMusic;
 
 		super();
+		
+		#if android
+	        addVirtualPad(FULL, A_B);
+                #end
 	}
 
 	var changedMusic:Bool = false;
