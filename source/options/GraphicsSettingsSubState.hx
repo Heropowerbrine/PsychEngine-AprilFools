@@ -78,6 +78,10 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 		*/
 
 		super();
+		
+		#if android
+	        addVirtualPad(FULL, A_B);
+                #end
 	}
 
 	function onChangeAntiAliasing()
